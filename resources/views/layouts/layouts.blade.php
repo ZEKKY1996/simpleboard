@@ -9,6 +9,8 @@
         @component('components.header')
         @endcomponent
         <div class="container pb-5" style="padding-top: 5rem;">
+            @component('components.flash')
+            @endcomponent
             @yield('content')
         </div>
         
